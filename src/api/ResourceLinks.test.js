@@ -4,7 +4,7 @@ const expect = require('chai').expect
   , v3Api = require('../v3').v3.api
   , discovery = require('../index').discovery
   , testValues = require('../../test/support/testValues.js')
-  , ResourceLink = require('@peter-murray/hue-bridge-model').model.ResourceLink
+  , ResourceLink = require('@delos-tech/hue-bridge-model').model.ResourceLink
 ;
 
 

@@ -3,8 +3,8 @@
 const expect = require('chai').expect
   , v3Api = require('../v3').v3.api
   , discovery = require('../index').discovery
-  , model = require('@peter-murray/hue-bridge-model').model
-  , timePatterns = require('@peter-murray/hue-bridge-model').time
+  , model = require('@delos-tech/hue-bridge-model').model
+  , timePatterns = require('@delos-tech/hue-bridge-model').time
   , Schedule = model.Schedule
   , testValues = require('../../test/support/testValues.js')
   , ApiError = require('../ApiError').ApiError

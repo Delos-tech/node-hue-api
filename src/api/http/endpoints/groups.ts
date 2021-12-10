@@ -1,4 +1,4 @@
-import { model } from '@peter-murray/hue-bridge-model';
+import { model } from '@delos-tech/hue-bridge-model';
 import { ApiBodyPayload, ApiEndpoint } from './ApiEndpoint';
 import { GroupIdPlaceholder } from '../../placeholders/GroupIdPlaceholder';
 import { ApiError } from '../../../ApiError';

@@ -3,7 +3,7 @@
 const expect = require('chai').expect
   , v3 = require('../v3').v3
   , discovery = require('../index').discovery
-  , model = require('@peter-murray/hue-bridge-model').model
+  , model = require('@delos-tech/hue-bridge-model').model
   , Light = model.Light
   , LightState = model.lightStates.LightState
   , RateLimitConfig = require('./HueApiRateLimits').HueApiRateLimits

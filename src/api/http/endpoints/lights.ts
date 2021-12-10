@@ -1,4 +1,4 @@
-import { model } from '@peter-murray/hue-bridge-model';
+import { model } from '@delos-tech/hue-bridge-model';
 import { LightIdPlaceholder } from '../../placeholders/LightIdPlaceholder';
 import { ApiEndpoint } from './ApiEndpoint';
 import { rgbToXY } from '../../../rgb';

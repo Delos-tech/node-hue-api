@@ -1,4 +1,4 @@
-import { model, time } from '@peter-murray/hue-bridge-model';
+import { model, time } from '@delos-tech/hue-bridge-model';
 import { extractUpdatedAttributes, parseErrors, wasSuccessful } from '../../../util';
 import { ApiBodyPayload, ApiEndpoint } from './ApiEndpoint';
 import { ScheduleIdPlaceholder } from '../../placeholders/ScheduleIdPlaceholder';

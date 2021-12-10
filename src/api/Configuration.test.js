@@ -4,7 +4,7 @@ const expect = require('chai').expect
   , v3Api = require('../v3').v3.api
   , discovery = require('../index').discovery
   , ApiError = require('../index').ApiError
-  , model = require('@peter-murray/hue-bridge-model').model
+  , model = require('@delos-tech/hue-bridge-model').model
   , BridgeConfiguration = model.BridgeConfiguration
   , testValues = require('../../test/support/testValues')
 ;

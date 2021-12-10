@@ -14,7 +14,7 @@ import { Schedules } from './Schedules';
 import { Sensors } from './Sensors';
 import { Users } from './Users';
 
-import { model } from '@peter-murray/hue-bridge-model';
+import { model } from '@delos-tech/hue-bridge-model';
 import { HueApiRateLimits } from './HueApiRateLimits';
 type Light = model.Light
 

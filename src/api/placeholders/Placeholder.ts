@@ -1,4 +1,4 @@
-import { types } from '@peter-murray/hue-bridge-model';
+import { types } from '@delos-tech/hue-bridge-model';
 import { ApiError } from '../../ApiError';
 import { KeyValueType } from '../../commonTypes';
 

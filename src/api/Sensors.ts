@@ -1,5 +1,5 @@
 import { ApiDefinition } from './http/ApiDefinition';
-import { model } from '@peter-murray/hue-bridge-model';
+import { model } from '@delos-tech/hue-bridge-model';
 import { KeyValueType } from '../commonTypes';
 
 import { SensorIdResult, sensorsApi } from './http/endpoints/sensors';

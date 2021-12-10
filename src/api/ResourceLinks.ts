@@ -1,6 +1,6 @@
 import { ApiDefinition } from './http/ApiDefinition';
 import { resourceLinksApi } from './http/endpoints/resourceLinks';
-import { model } from '@peter-murray/hue-bridge-model';
+import { model } from '@delos-tech/hue-bridge-model';
 import { Api } from './Api';
 
 type ResourceLinkId = string | model.ResourceLink

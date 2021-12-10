@@ -1,7 +1,7 @@
 import { ApiDefinition } from './http/ApiDefinition';
 import { scenesApi } from './http/endpoints/scenes';
 import { SceneIdPlaceholder } from './placeholders/SceneIdPlaceholder';
-import { model } from '@peter-murray/hue-bridge-model';
+import { model } from '@delos-tech/hue-bridge-model';
 import { KeyValueType } from '../commonTypes';
 import { Api } from './Api';
 

@@ -1,6 +1,6 @@
 import { ApiBodyPayload, ApiEndpoint } from './ApiEndpoint';
 import { UsernamePlaceholder } from '../../placeholders/UsernamePlaceholder';
-import { model } from '@peter-murray/hue-bridge-model';
+import { model } from '@delos-tech/hue-bridge-model';
 import { ApiError } from '../../../ApiError';
 
 import { wasSuccessful } from '../../../util';

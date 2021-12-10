@@ -1,4 +1,4 @@
-import { model, time } from '@peter-murray/hue-bridge-model';
+import { model, time } from '@delos-tech/hue-bridge-model';
 
 function isTimePattern(str: string): boolean {
   return time.AbsoluteTime.matches(str)

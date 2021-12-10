@@ -1,6 +1,6 @@
 import { ApiDefinition } from './http/ApiDefinition';
 import { configurationApi, CreatedUser } from './http/endpoints/configuration';
-import { model } from '@peter-murray/hue-bridge-model';
+import { model } from '@delos-tech/hue-bridge-model';
 import { KeyValueType } from '../commonTypes';
 import { Cache } from './Cache';
 import { Api } from './Api';

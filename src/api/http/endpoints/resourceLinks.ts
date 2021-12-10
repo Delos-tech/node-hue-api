@@ -1,4 +1,4 @@
-import { model } from '@peter-murray/hue-bridge-model';
+import { model } from '@delos-tech/hue-bridge-model';
 import { extractUpdatedAttributes, parseErrors, wasSuccessful } from '../../../util';
 import { ResourceLinkPlaceholder } from '../../placeholders/ResourceLinkPlaceholder';
 import { ApiBodyPayload, ApiEndpoint } from './ApiEndpoint';

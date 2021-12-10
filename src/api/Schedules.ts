@@ -1,4 +1,4 @@
-import { model } from '@peter-murray/hue-bridge-model';
+import { model } from '@delos-tech/hue-bridge-model';
 import { ApiDefinition } from './http/ApiDefinition';
 import { schedulesApi } from './http/endpoints/schedules';
 import { Api } from './Api';

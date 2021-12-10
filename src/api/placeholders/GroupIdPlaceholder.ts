@@ -1,5 +1,5 @@
 import { Placeholder } from './Placeholder';
-import { model, types } from '@peter-murray/hue-bridge-model';
+import { model, types } from '@delos-tech/hue-bridge-model';
 
 export class GroupIdPlaceholder extends Placeholder {
 

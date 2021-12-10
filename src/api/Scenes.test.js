@@ -3,7 +3,7 @@
 const expect = require('chai').expect
   , v3Api = require('../v3').v3.api
   , discovery = require('../index').discovery
-  , model = require('@peter-murray/hue-bridge-model').model
+  , model = require('@delos-tech/hue-bridge-model').model
   , instanceChecks = model.instanceChecks
   , LightScene = model.LightScene
   , SceneLightState = model.lightStates.SceneLightState

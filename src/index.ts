@@ -13,4 +13,4 @@ export * from './v3';
 export * as api from './api';
 
 // Export raw implementation of bridge model
-export { model, time } from '@peter-murray/hue-bridge-model';
+export { model, time } from '@delos-tech/hue-bridge-model';
