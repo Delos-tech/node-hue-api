@@ -19,13 +19,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/peter-murray/node-hue-api"
+    "url": "https://github.com/Delos-tech/node-hue-api"
   },
   "bugs": {
     "url": "https://github.com/peter-murray/node-hue-api/issues"
   },
   "dependencies": {
-    "@peter-murray/hue-bridge-model": "^1.0.0",
+    "@delos-tech/hue-bridge-model": "^2.0.3",
     "bottleneck": "^2.19.5",
     "get-ssl-certificate": "^2.3.3",
     "node-fetch": "^2.6.0"
