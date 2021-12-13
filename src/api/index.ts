@@ -1,7 +1,7 @@
-import { LocalBootstrap } from './http/LocalBootstrap';
-import { LocalInsecureBootstrap } from './http/LocalInsecureBootstrap';
-import { RemoteBootstrap } from './http/RemoteBootstrap';
-import { HueApiRateLimits } from './HueApiRateLimits';
+import {LocalBootstrap} from './http/LocalBootstrap';
+import {LocalInsecureBootstrap} from './http/LocalInsecureBootstrap';
+import {RemoteBootstrap} from './http/RemoteBootstrap';
+import {HueApiRateLimits} from './HueApiRateLimits';
 
 const DEFAULT_RATE_LIMIT_CONFIG = new HueApiRateLimits();
 
@@ -11,7 +11,7 @@ const DEFAULT_RATE_LIMIT_CONFIG = new HueApiRateLimits();
  * @param clientSecret The OAuth client secret for your application.
  */
 export function createRemote(clientId: string, clientSecret: string, rateLimits?: HueApiRateLimits): RemoteBootstrap {
-  return new RemoteBootstrap(clientId, clientSecret, rateLimits || DEFAULT_RATE_LIMIT_CONFIG);
+    return new RemoteBootstrap(clientId, clientSecret, rateLimits || DEFAULT_RATE_LIMIT_CONFIG);
 }
 
 /**
@@ -20,7 +20,7 @@ export function createRemote(clientId: string, clientSecret: string, rateLimits?
  * @param port The port number to connect to, optional.
  */
 export function createLocal(host: string, port?: number, rateLimits?: HueApiRateLimits): LocalBootstrap {
-  return new LocalBootstrap(host, rateLimits || DEFAULT_RATE_LIMIT_CONFIG, port);
+    return new LocalBootstrap(host, rateLimits || DEFAULT_RATE_LIMIT_CONFIG, port);
 }
 
 /**
@@ -29,5 +29,7 @@ export function createLocal(host: string, port?: number, rateLimits?: HueApiRate
  * @param port The port number to connect to, optional.
  */
 export function createInsecureLocal(host: string, port?: number, rateLimits?: HueApiRateLimits): LocalInsecureBootstrap {
-  return new LocalInsecureBootstrap(host, rateLimits || DEFAULT_RATE_LIMIT_CONFIG, port);
+    return new LocalInsecureBootstrap(host, rateLimits || DEFAULT_RATE_LIMIT_CONFIG, port);
 }
+
+export {HueApiRateLimits};
