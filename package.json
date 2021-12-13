@@ -1,7 +1,7 @@
 {
   "name": "@delos-tech/node-hue-api",
   "description": "Philips Hue API Library for Node.js",
-  "version": "5.0.0-beta.9",
+  "version": "5.0.1",
   "author": "Peter Murray ",
   "contributors": [
     {
